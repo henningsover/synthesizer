@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Web Audio API</h1>
+    <h2>Oscillator 1</h2>
+    <form id="osc1_waves">
+      <input type="radio" id="sine" name="osc1_waves" value="sine" />
+      <label for="sine">Sine</label>
+      <input type="radio" id="square" name="osc1_waves" value="square" />
+      <label for="square">Square</label>
+      <input type="radio" id="triangle" name="osc1_waves" value="triangle" />
+      <label for="triangle">Triangle</label>
+      <input type="radio" id="sawtooth" name="osc1_waves" value="sawtooth" />
+      <label for="sawtooth">Sawtooth</label>
+    </form>
+    <h2>Oscillator 2</h2>
+    <form id="osc2_waves">
+      <input type="radio" id="sine" name="osc2_waves" value="sine" />
+      <label for="sine">Sine</label>
+      <input type="radio" id="square" name="osc2_waves" value="square" />
+      <label for="square">Square</label>
+      <input type="radio" id="triangle" name="osc2_waves" value="triangle" />
+      <label for="triangle">Triangle</label>
+      <input type="radio" id="sawtooth" name="osc2_waves" value="sawtooth" />
+      <label for="sawtooth">Sawtooth</label>
+    </form>
+    <div class="keys-wrapper">
+      <div id="c1" class="key"></div>
+      <div id="d1" class="key"></div>
+      <div id="e1" class="key"></div>
+      <div id="f1" class="key"></div>
+      <div id="g1" class="key"></div>
+      <div id="a1" class="key"></div>
+      <div id="b1" class="key"></div>
+      <div id="c2" class="key"></div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</html>

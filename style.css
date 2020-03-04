@@ -1,0 +1,15 @@
+.keys-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30vw;
+}
+
+.key {
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+}
+
+.key:nth-child(even) {
+  background-color: black;
+}
