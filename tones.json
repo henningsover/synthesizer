@@ -1,34 +1,34 @@
 [
   {
-    "note": "c1",
+    "toneName": "c1",
     "freq": 130.81
   },
   {
-    "note": "d1",
+    "toneName": "d1",
     "freq": 146.83
   },
   {
-    "note": "e1",
+    "toneName": "e1",
     "freq": 164.81
   },
   {
-    "note": "f1",
+    "toneName": "f1",
     "freq": 174.61
   },
   {
-    "note": "g1",
+    "toneName": "g1",
     "freq": 196.0
   },
   {
-    "note": "a1",
+    "toneName": "a1",
     "freq": 220.0
   },
   {
-    "note": "b1",
+    "toneName": "b1",
     "freq": 246.94
   },
   {
-    "note": "c2",
+    "toneName": "c2",
     "freq": 261.63
   }
 ]
